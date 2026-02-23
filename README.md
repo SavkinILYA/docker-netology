@@ -33,3 +33,17 @@
 ![toms](img/14.15.53.png)
 #### Вывод:
 Оба файла видны и читаемы из второго контейнера → том (-v) монтирует одну и ту же директорию хоста в /data обоих контейнеров. Изменения синхронизируются мгновенно (между хостом и всеми подключёнными контейнерами)
+
+## Задача 5
+
+### Работа с Docker Compose, include, локальный registry и Portainer
+![task5](img/16.23.23.png)
+![task5](img/16.18.42.png)
+![task5](img/16.17.26.png)
+![task5](img/16.37.16.png)
+#### Суть предупреждения:
+Compose обнаружил "сиротский" контейнер task5-portainer-1 (от предыдущих запусков с compose.yaml).
+После удаления compose.yaml остался только docker-compose.yaml → запустился только registry
+[compose.yaml](compose.yaml)
+[docker-compose.yaml](docker-compose.yaml)
+
