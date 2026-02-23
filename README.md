@@ -4,5 +4,6 @@
 
 - Создан публичный репозиторий: savkn/custom-nginx
 - Ссылка на репозиторий: https://hub.docker.com/r/savkn/custom-nginx/general
+
 (Тег 1.0.0 успешно запушен, образ основан на nginx:1.29.0 с заменённым index.html)
 ![Tag](img/13.29.04.png)
